@@ -70,3 +70,30 @@ berhasil Anda lakukan!
 - App Router adalah sistem routing baru di Next.js mulai versi 13 yang berbasis pada file dan folder di dalam direktori app/. Fungsinya Menggunakan React Server Components untuk meningkatkan performa dan mendukung fitur server-side rendering (SSR) dan static generation (SSG) secara otomatis.
 - Import Alias memungkinkan kita untuk menggunakan path pendek dalam mengimpor file, sehingga lebih rapi dan mudah dikelola. Fungsinya Menghindari import path yang panjang dan berantakan dan memudahkan navigasi antar file dalam proyek besar.
 - Turbopack adalah bundler baru yang dikembangkan oleh Vercel untuk menggantikan Webpack di Next.js. Fungsinya 40 kali lebih cepat dibandingkan Webpack dalam mode pengembangan dan memanfaatkan incremental bundling, sehingga hanya file yang berubah yang akan diproses ulang.
+2.    - .next adalah sebuah folder yang digunakan untuk menyimpan file-file yang dihasilkan oleh proses build aplikasi React.
+    - node_modules adalah sebuah folder yang digunakan untuk menyimpan semua modul yang dibutuhkan oleh aplikasi React.
+    - public adalah sebuah folder yang digunakan untuk menyimpan semua file-file yang dibutuhkan oleh aplikasi React.
+    - src adalah sebuah folder yang digunakan untuk menyimpan semua file-file yang dibutuhkan oleh aplikasi React.
+    - .gitignore adalah sebuah file yang digunakan untuk menentukan file-file yang tidak perlu di-commit ke dalam repositori.
+    - eslint.config.js adalah sebuah file yang digunakan untuk menentukan standar linting untuk aplikasi React.
+    - next-env.d.ts adalah sebuah file yang digunakan untuk menentukan tipe data yang dibutuhkan oleh aplikasi React.
+    - next.config.js adalah sebuah file yang digunakan untuk menentukan konfigurasi aplikasi React.
+    - package-lock.json adalah sebuah file yang digunakan untuk menentukan versi modul yang digunakan oleh aplikasi React.
+    - package.json adalah sebuah file yang digunakan untuk menentukan informasi tentang aplikasi React.
+    - postcss.config.js adalah sebuah file yang digunakan untuk menentukan konfigurasi PostCSS.
+    - tailwind.config.js adalah sebuah file yang digunakan untuk menentukan konfigurasi Tailwind CSS.
+    - tsconfig.json adalah sebuah file yang digunakan untuk menentukan tipe data dan konfigurasi TypeScript.
+
+# Praktikum 3
+1. Di dalam folder proyek yang telah dibuka di VS Code, buka file page.tsx
+2. Tambahkan fungsi MyButton yang mengembalikan markup komponen button yang akan
+ditambahkan ke dalam webpage 
+![alt text](image-3.png)
+
+# Praktikum 4
+1. Tambahkan kode JSX di bawah ini ke dalam file page.tsx.
+![alt text](image-4.png)
+
+## Pertanyaan Praktikum 4
+1. Untuk apakah kegunaan sintaks user.imageUrl?
+- Digunakan untuk menampilkan foto profil atau avatar pengguna dalam aplikasi.
